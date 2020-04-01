@@ -7,9 +7,9 @@ import RenderThree from '../components/RenderThree';
 const dispatchCode = (renderer, param) => {
     // To add component: add its import above; then add a line for its name here:
     const code2Renderer = {
-        RenderOne: <><RenderOne param={param}/></>,
-        RenderTwo: <><RenderTwo param={param}/></>,
-        RenderThree: <><RenderThree param={param}/></>,
+        RenderOne: <RenderOne param={param}/>,
+        RenderTwo: <RenderTwo param={param}/>,
+        RenderThree: <RenderThree param={param}/>,
     };
 
     return code2Renderer[renderer] || <>Rats! Code not found</>;
