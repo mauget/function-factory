@@ -42,7 +42,7 @@ A client component would invoke a child by `code` property string like this:
 The param property is our single parameter, but we could have coded for more
 parameters.
 
-Here is one demo dyanamic componet:
+Here is one demo dynamic component:
 
 ```javascript 1.8
 import React from "react";
