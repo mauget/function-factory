@@ -1,55 +1,45 @@
-# Dynamic Component Dispatching
+# Dynamic Function Dispatching
 
-This demo addresses a need to dynamically call a React component by a string name.
+This demo addresses a need to dynamically call a JavaScript function by a string name.
 Approaches using `Eval` or `Function` are not allowed. 
 
-Instead, we use a JavaScript object to map a string key to a component name
-in a factory pattern. We could call the resolved component as a function, 
-but parameters are props in the React world. Instead, we use a factory that
-produces React component instantiations. Here is `RenderFactory.jsx`:
+Instead, we use a JavaScript object to map a string key to a function name
+in a factory pattern. Here is `functionFactory.js`:
 
 ```javascript
-import React from 'react';
-import RenderOne from '../components/RenderOne';
-import RenderTwo from '../components/RenderTwo';
-import RenderThree from '../components/RenderThree';
+import functionOne from './dynamic/functionOne';
+import functionTwo from './dynamic/functionTwo';
+import functionThree from './dynamic/functionThree';
 
-const dispatchCode = (renderer, param) => {
-    // To add component: add its import above; then add a line for its name here:
-    const code2Renderer = {
-        RenderOne: <RenderOne param={param}/>,
-        RenderTwo: <RenderTwo param={param}/>,
-        RenderThree: <RenderThree param={param}/>,
+const dispatchFunction = (functionNAme, param) => {
+    // To add a function: add its import above; then add a line for its name here:
+    const functionMap = {
+        functionOne,
+        functionTwo,
+        functionThree,
     };
-
-    return code2Renderer[renderer] || <>Rats! Code not found</>;
+    return functionMap[functionNAme](param) || (() => `Rats! Function ${functionNAme} not registered`)();
 };
 
-export function RenderFactory(props) {
-    const { code, param } = { ...props };
-    const component = `Render${code}`;
-
-    return dispatchCode(component, param);
+export function functionFactory(code, param) {
+    return dispatchFunction(`function${code}`, param);
 }
 ```
 
-A client component would invoke a child by `code` property string like this:
+A caller would invoke a function by a `code` property string like this:
 
 ```javascript
-<RenderFactory code={code} param={`at ${new Date().toTimeString()}`}/>
+{ functionFactory(code, new Date().toTimeString()) }
 ```
 
 The param property is our single parameter, but we could have coded for more
 parameters.
 
-Here is one demo dynamic component:
+Here is one demo dynamic function:
 
 ```javascript
-import React from "react";
-
-export default function RenderThree(props) {
-    const { param } = { ...props };
-    return <div>Hello from component THREE<br/>{param}</div>;
+export default function functionThree(time) {
+    return `Hello from function THREE at ${time}`;
 }
 ```
 
