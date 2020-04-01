@@ -1,28 +1,28 @@
 import React, {useState} from 'react';
 import './App.css';
 import {ToggleButton, ToggleButtonGroup} from "react-bootstrap";
-import {renderFactory} from "./renderFactory/renderFactory";
+import {RenderFactory} from "./renderFactory/RenderFactory";
 
 function App() {
 
-    const [componentName, setComponentName] = useState('One');
+    const [code, setCode] = useState('One');
 
-    const handleChange = (value) => {
-        setComponentName(value);
+    const onChange = (value) => {
+        setCode(value);
     };
 
     return <div className="App">
         <header className="App-header">
-
-            <ToggleButtonGroup type="radio" name="group-options" defaultValue={componentName} onChange={handleChange}>
-                <ToggleButton value={'One'}>Component One</ToggleButton>
-                <ToggleButton value={'Two'}>Component Two</ToggleButton>
-                <ToggleButton value={'Three'}>Component Three</ToggleButton>
+            <p>Pick a code: </p>
+            <ToggleButtonGroup type="radio" name="group-options" defaultValue={code} onChange={onChange}>
+                <ToggleButton value={'One'}>Code One</ToggleButton>
+                <ToggleButton value={'Two'}>Code Two</ToggleButton>
+                <ToggleButton value={'Three'}>Code Three</ToggleButton>
             </ToggleButtonGroup>
-
-            <p>
-                {renderFactory(`Render${componentName}`)()}
-            </p>
+            <br />
+            <div>
+                <RenderFactory code={code} param={`at ${new Date().toTimeString()}`}/>
+            </div>
         </header>
     </div>;
 }

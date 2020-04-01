@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f883aa2-9a86-47ee-a124-137cfab734f1" name="Default Changelist" comment="Init">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderFactory/RenderOne.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderFactory/RenderThree.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderFactory/RenderTwo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderFactory/renderFactory.js" afterDir="false" />
+    <list default="true" id="8f883aa2-9a86-47ee-a124-137cfab734f1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pix/code-factory-ui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RenderOne.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RenderThree.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RenderTwo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderFactory/RenderFactory.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderFactory/RenderOne.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderFactory/RenderThree.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderFactory/RenderTwo.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderFactory/renderFactory.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +34,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1ZuLE5SKc6QFuUM0VoZRg5yfxBo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -62,6 +66,12 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pix" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+  </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
@@ -87,8 +97,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585683918052</updated>
-      <workItem from="1585683920743" duration="20416000" />
+      <workItem from="1585683920743" duration="29202000" />
     </task>
+    <task id="LOCAL-00001" summary="Changed root word from &quot;render&quot; to &quot;component&quot;">
+      <created>1585749793941</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585749793941</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,37 +114,42 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Changed root word from &quot;render&quot; to &quot;component&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed root word from &quot;render&quot; to &quot;component&quot;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="201" key="#ESLint" timestamp="1585748136136">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="466" y="201" key="#ESLint/50.23.1630.1027@50.23.1630.1027" timestamp="1585748136136" />
-    <state x="449" y="138" key="CommitChangelistDialog2" timestamp="1585746861124">
+    <state x="449" y="138" key="CommitChangelistDialog2" timestamp="1585749793753">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state x="449" y="138" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1585746861124" />
+    <state x="449" y="138" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1585749793753" />
     <state x="214" y="114" key="DiffContextDialog" timestamp="1585686361995">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="214" y="114" key="DiffContextDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1585686361995" />
-    <state width="1582" height="272" key="GridCell.Tab.0.bottom" timestamp="1585748295990">
+    <state x="731" y="436" key="Github.ShareDialog" timestamp="1585749838208">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state width="1582" height="272" key="GridCell.Tab.0.bottom/50.23.1630.1027@50.23.1630.1027" timestamp="1585748295990" />
-    <state width="1582" height="272" key="GridCell.Tab.0.center" timestamp="1585748295990">
+    <state x="731" y="436" key="Github.ShareDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1585749838208" />
+    <state width="1582" height="272" key="GridCell.Tab.0.bottom" timestamp="1585757783782">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state width="1582" height="272" key="GridCell.Tab.0.center/50.23.1630.1027@50.23.1630.1027" timestamp="1585748295990" />
-    <state width="1582" height="272" key="GridCell.Tab.0.left" timestamp="1585748295989">
+    <state width="1582" height="272" key="GridCell.Tab.0.bottom/50.23.1630.1027@50.23.1630.1027" timestamp="1585757783782" />
+    <state width="1582" height="272" key="GridCell.Tab.0.center" timestamp="1585757783781">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state width="1582" height="272" key="GridCell.Tab.0.left/50.23.1630.1027@50.23.1630.1027" timestamp="1585748295989" />
-    <state width="1582" height="272" key="GridCell.Tab.0.right" timestamp="1585748295990">
+    <state width="1582" height="272" key="GridCell.Tab.0.center/50.23.1630.1027@50.23.1630.1027" timestamp="1585757783781" />
+    <state width="1582" height="272" key="GridCell.Tab.0.left" timestamp="1585757783781">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
-    <state width="1582" height="272" key="GridCell.Tab.0.right/50.23.1630.1027@50.23.1630.1027" timestamp="1585748295990" />
+    <state width="1582" height="272" key="GridCell.Tab.0.left/50.23.1630.1027@50.23.1630.1027" timestamp="1585757783781" />
+    <state width="1582" height="272" key="GridCell.Tab.0.right" timestamp="1585757783782">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state width="1582" height="272" key="GridCell.Tab.0.right/50.23.1630.1027@50.23.1630.1027" timestamp="1585757783782" />
     <state width="1582" height="335" key="GridCell.Tab.1.bottom" timestamp="1585701339428">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
@@ -163,5 +186,13 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="655" y="253" key="RollbackChangesDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1585686364898" />
+    <state x="466" y="264" key="Vcs.Push.Dialog.v2" timestamp="1585749802104">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="466" y="264" key="Vcs.Push.Dialog.v2/50.23.1630.1027@50.23.1630.1027" timestamp="1585749802104" />
+    <state x="649" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585749854230">
+      <screen x="50" y="23" width="1630" height="1027" />
+    </state>
+    <state x="649" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/50.23.1630.1027@50.23.1630.1027" timestamp="1585749854230" />
   </component>
 </project>
