@@ -9,7 +9,8 @@ const dispatchFunction = (functionNAme, param) => {
         functionTwo,
         functionThree,
     };
-    return functionMap[functionNAme](param) || (() => `Rats! Function ${functionNAme} not registered`)();
+    const fn = functionMap[functionNAme];
+    return fn ? fn(param) : `Rats! ${functionNAme} not registered`;
 };
 
 export function functionFactory(code, param) {

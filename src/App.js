@@ -13,6 +13,7 @@ function App() {
                 <ToggleButton value={'One'}>Code One</ToggleButton>
                 <ToggleButton value={'Two'}>Code Two</ToggleButton>
                 <ToggleButton value={'Three'}>Code Three</ToggleButton>
+                <ToggleButton value={'Bad'}>Code Bad</ToggleButton>
             </ToggleButtonGroup>
             <br />
             <div>

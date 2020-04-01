@@ -18,7 +18,8 @@ const dispatchFunction = (functionNAme, param) => {
         functionTwo,
         functionThree,
     };
-    return functionMap[functionNAme](param) || (() => `Rats! Function ${functionNAme} not registered`)();
+    const fn = functionMap[functionNAme];
+    return fn ? fn(param) : `Rats! ${functionNAme} not registered`;
 };
 
 export function functionFactory(code, param) {
@@ -43,9 +44,13 @@ export default function functionThree(time) {
 }
 ```
 
-The demo UI chooses the dispatch code property via toggle buttons;
+The demo UI chooses the dispatch code property via toggle buttons.
 
 ![pix/code-factory-ui.png](pix/code-factory-ui.png)
+
+The factory handles unregistered functions.
+
+![pix/code-factory-ui-bad-code.png](pix/code-factory-ui-bad-code.png)
 
 ---
 # Instructions
