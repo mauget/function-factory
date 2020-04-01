@@ -5,7 +5,7 @@ import RenderTwo from '../components/RenderTwo';
 import RenderThree from '../components/RenderThree';
 
 const dispatchCode = (renderer, param) => {
-    // To a component: add its import above; then add a line for its name here:
+    // To add component: add its import above; then add a line for its name here:
     const code2Renderer = {
         RenderOne: <><RenderOne param={param}/></>,
         RenderTwo: <><RenderTwo param={param}/></>,
