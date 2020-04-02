@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f883aa2-9a86-47ee-a124-137cfab734f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pix/code-factory-ui-bad-code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functionFactory.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/README.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pix/code-factory-ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/pix/code-factory-ui.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/functionFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionFactory.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -76,7 +74,72 @@
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Jest.renders select &quot;Code One&quot;">
+    <configuration name="factory dispatch of &quot;BAD&quot; return contains &quot;BAD&quot;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/functionFactory.test.js" />
+      <test-names>
+        <test-name value="factory dispatch of &quot;BAD&quot; return contains &quot;BAD&quot;" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="factory dispatch of &quot;One&quot; return contains &quot;One&quot; and &quot;xyx&quot;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/functionFactory.test.js" />
+      <test-names>
+        <test-name value="factory dispatch of &quot;One&quot; return contains &quot;One&quot; and &quot;xyx&quot;" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="factory" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/functionFactory.test.js" />
+      <test-names>
+        <test-name value="factory" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders learn react link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="renders learn react link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="renders select &quot;Code One&quot;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/App.test.js" />
+      <test-names>
+        <test-name value="renders select &quot;Code One&quot;" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -90,6 +153,15 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.renders select &quot;Code One&quot;" />
+        <item itemvalue="Jest.renders learn react link" />
+        <item itemvalue="Jest.factory" />
+        <item itemvalue="Jest.factory dispatch of &quot;BAD&quot; return contains &quot;BAD&quot;" />
+        <item itemvalue="Jest.factory dispatch of &quot;One&quot; return contains &quot;One&quot; and &quot;xyx&quot;" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -102,7 +174,8 @@
       <option name="presentableId" value="Default" />
       <updated>1585683918052</updated>
       <workItem from="1585683920743" duration="30963000" />
-      <workItem from="1585774529931" duration="4641000" />
+      <workItem from="1585774529931" duration="5404000" />
+      <workItem from="1585846412463" duration="2740000" />
     </task>
     <task id="LOCAL-00001" summary="Changed root word from &quot;render&quot; to &quot;component&quot;">
       <created>1585749793941</created>
@@ -160,7 +233,21 @@
       <option name="project" value="LOCAL" />
       <updated>1585777602039</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Handle unregistered codes">
+      <created>1585781711174</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585781711174</updated>
+    </task>
+    <task id="LOCAL-00010" summary="README.pdf re-generated">
+      <created>1585781839546</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1585781839546</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,19 +261,21 @@
     <MESSAGE value="Fixed README.md typo" />
     <MESSAGE value="README.pdf" />
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Handle unregistered codes" />
+    <MESSAGE value="README.pdf re-generated" />
+    <option name="LAST_COMMIT_MESSAGE" value="README.pdf re-generated" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="201" key="#ESLint" timestamp="1585748136136">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="466" y="201" key="#ESLint/50.23.1630.1027@50.23.1630.1027" timestamp="1585748136136" />
-    <state x="450" y="138" key="CommitChangelistDialog2" timestamp="1585781711014">
+    <state x="449" y="138" key="CommitChangelistDialog2" timestamp="1585781839424">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state x="448" y="138" key="CommitChangelistDialog2/49.23.1631.1027@49.23.1631.1027" timestamp="1585763400774" />
     <state x="449" y="138" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1585761867789" />
-    <state x="450" y="138" key="CommitChangelistDialog2/52.23.1628.1027@52.23.1628.1027" timestamp="1585781711014" />
+    <state x="449" y="138" key="CommitChangelistDialog2/52.23.1628.1027@52.23.1628.1027" timestamp="1585781839424" />
     <state x="214" y="114" key="DiffContextDialog" timestamp="1585686361995">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
@@ -195,26 +284,26 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="731" y="436" key="Github.ShareDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1585749838208" />
-    <state width="1584" height="272" key="GridCell.Tab.0.bottom" timestamp="1585776601023">
+    <state width="1584" height="272" key="GridCell.Tab.0.bottom" timestamp="1585850084764">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state width="1586" height="272" key="GridCell.Tab.0.bottom/50.23.1630.1027@50.23.1630.1027" timestamp="1585762320496" />
-    <state width="1584" height="272" key="GridCell.Tab.0.bottom/52.23.1628.1027@52.23.1628.1027" timestamp="1585776601023" />
-    <state width="1584" height="272" key="GridCell.Tab.0.center" timestamp="1585776601022">
+    <state width="1584" height="272" key="GridCell.Tab.0.bottom/52.23.1628.1027@52.23.1628.1027" timestamp="1585850084764" />
+    <state width="1584" height="272" key="GridCell.Tab.0.center" timestamp="1585850084763">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state width="1586" height="272" key="GridCell.Tab.0.center/50.23.1630.1027@50.23.1630.1027" timestamp="1585762320495" />
-    <state width="1584" height="272" key="GridCell.Tab.0.center/52.23.1628.1027@52.23.1628.1027" timestamp="1585776601022" />
-    <state width="1584" height="272" key="GridCell.Tab.0.left" timestamp="1585776601022">
+    <state width="1584" height="272" key="GridCell.Tab.0.center/52.23.1628.1027@52.23.1628.1027" timestamp="1585850084763" />
+    <state width="1584" height="272" key="GridCell.Tab.0.left" timestamp="1585850084763">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state width="1586" height="272" key="GridCell.Tab.0.left/50.23.1630.1027@50.23.1630.1027" timestamp="1585762320494" />
-    <state width="1584" height="272" key="GridCell.Tab.0.left/52.23.1628.1027@52.23.1628.1027" timestamp="1585776601022" />
-    <state width="1584" height="272" key="GridCell.Tab.0.right" timestamp="1585776601023">
+    <state width="1584" height="272" key="GridCell.Tab.0.left/52.23.1628.1027@52.23.1628.1027" timestamp="1585850084763" />
+    <state width="1584" height="272" key="GridCell.Tab.0.right" timestamp="1585850084764">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state width="1586" height="272" key="GridCell.Tab.0.right/50.23.1630.1027@50.23.1630.1027" timestamp="1585762320495" />
-    <state width="1584" height="272" key="GridCell.Tab.0.right/52.23.1628.1027@52.23.1628.1027" timestamp="1585776601023" />
+    <state width="1584" height="272" key="GridCell.Tab.0.right/52.23.1628.1027@52.23.1628.1027" timestamp="1585850084764" />
     <state width="1582" height="335" key="GridCell.Tab.1.bottom" timestamp="1585701339428">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
@@ -251,15 +340,18 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="655" y="253" key="RollbackChangesDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1585686364898" />
-    <state x="467" y="264" key="Vcs.Push.Dialog.v2" timestamp="1585781717670">
+    <state x="467" y="264" key="Vcs.Push.Dialog.v2" timestamp="1585781842356">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state x="465" y="264" key="Vcs.Push.Dialog.v2/49.23.1631.1027@49.23.1631.1027" timestamp="1585762971059" />
     <state x="466" y="264" key="Vcs.Push.Dialog.v2/50.23.1630.1027@50.23.1630.1027" timestamp="1585761870352" />
-    <state x="467" y="264" key="Vcs.Push.Dialog.v2/52.23.1628.1027@52.23.1628.1027" timestamp="1585781717670" />
+    <state x="467" y="264" key="Vcs.Push.Dialog.v2/52.23.1628.1027@52.23.1628.1027" timestamp="1585781842356" />
     <state x="649" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585749854230">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="649" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/50.23.1630.1027@50.23.1630.1027" timestamp="1585749854230" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/function_factory$renders_select__Code_One_.info" NAME="renders select &quot;Code One&quot; Coverage Results" MODIFIED="1585850075593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
