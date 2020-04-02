@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8f883aa2-9a86-47ee-a124-137cfab734f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionFactory.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionFactory.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +177,9 @@
       <updated>1585683918052</updated>
       <workItem from="1585683920743" duration="30963000" />
       <workItem from="1585774529931" duration="5404000" />
-      <workItem from="1585846412463" duration="5398000" />
+      <workItem from="1585846412463" duration="5585000" />
+      <workItem from="1585852907903" duration="120000" />
+      <workItem from="1585868214451" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary="Changed root word from &quot;render&quot; to &quot;component&quot;">
       <created>1585749793941</created>
@@ -256,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585850124980</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Increase coverage">
+      <created>1585852845429</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1585852845429</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,23 +282,28 @@
     <MESSAGE value="Handle unregistered codes" />
     <MESSAGE value="README.pdf re-generated" />
     <MESSAGE value="Add a test or two" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a test or two" />
+    <MESSAGE value="Increase coverage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Increase coverage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="201" key="#ESLint" timestamp="1585748136136">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="466" y="201" key="#ESLint/50.23.1630.1027@50.23.1630.1027" timestamp="1585748136136" />
+    <state x="553" y="270" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585868263139">
+      <screen x="52" y="23" width="1628" height="1027" />
+    </state>
+    <state x="553" y="270" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/52.23.1628.1027@52.23.1628.1027" timestamp="1585868263139" />
     <state x="610" y="408" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1585852107693">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state x="610" y="408" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/52.23.1628.1027@52.23.1628.1027" timestamp="1585852107693" />
-    <state x="449" y="138" key="CommitChangelistDialog2" timestamp="1585850124815">
+    <state x="449" y="138" key="CommitChangelistDialog2" timestamp="1585852845297">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state x="448" y="138" key="CommitChangelistDialog2/49.23.1631.1027@49.23.1631.1027" timestamp="1585763400774" />
     <state x="449" y="138" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1585761867789" />
-    <state x="449" y="138" key="CommitChangelistDialog2/52.23.1628.1027@52.23.1628.1027" timestamp="1585850124815" />
+    <state x="449" y="138" key="CommitChangelistDialog2/52.23.1628.1027@52.23.1628.1027" timestamp="1585852845297" />
     <state x="214" y="114" key="DiffContextDialog" timestamp="1585686361995">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
@@ -298,26 +312,26 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="731" y="436" key="Github.ShareDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1585749838208" />
-    <state width="1584" height="272" key="GridCell.Tab.0.bottom" timestamp="1585852809923">
+    <state width="1584" height="272" key="GridCell.Tab.0.bottom" timestamp="1585852903802">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state width="1586" height="272" key="GridCell.Tab.0.bottom/50.23.1630.1027@50.23.1630.1027" timestamp="1585762320496" />
-    <state width="1584" height="272" key="GridCell.Tab.0.bottom/52.23.1628.1027@52.23.1628.1027" timestamp="1585852809923" />
-    <state width="1584" height="272" key="GridCell.Tab.0.center" timestamp="1585852809922">
+    <state width="1584" height="272" key="GridCell.Tab.0.bottom/52.23.1628.1027@52.23.1628.1027" timestamp="1585852903802" />
+    <state width="1584" height="272" key="GridCell.Tab.0.center" timestamp="1585852903802">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state width="1586" height="272" key="GridCell.Tab.0.center/50.23.1630.1027@50.23.1630.1027" timestamp="1585762320495" />
-    <state width="1584" height="272" key="GridCell.Tab.0.center/52.23.1628.1027@52.23.1628.1027" timestamp="1585852809922" />
-    <state width="1584" height="272" key="GridCell.Tab.0.left" timestamp="1585852809922">
+    <state width="1584" height="272" key="GridCell.Tab.0.center/52.23.1628.1027@52.23.1628.1027" timestamp="1585852903802" />
+    <state width="1584" height="272" key="GridCell.Tab.0.left" timestamp="1585852903802">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state width="1586" height="272" key="GridCell.Tab.0.left/50.23.1630.1027@50.23.1630.1027" timestamp="1585762320494" />
-    <state width="1584" height="272" key="GridCell.Tab.0.left/52.23.1628.1027@52.23.1628.1027" timestamp="1585852809922" />
-    <state width="1584" height="272" key="GridCell.Tab.0.right" timestamp="1585852809923">
+    <state width="1584" height="272" key="GridCell.Tab.0.left/52.23.1628.1027@52.23.1628.1027" timestamp="1585852903802" />
+    <state width="1584" height="272" key="GridCell.Tab.0.right" timestamp="1585852903802">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state width="1586" height="272" key="GridCell.Tab.0.right/50.23.1630.1027@50.23.1630.1027" timestamp="1585762320495" />
-    <state width="1584" height="272" key="GridCell.Tab.0.right/52.23.1628.1027@52.23.1628.1027" timestamp="1585852809923" />
+    <state width="1584" height="272" key="GridCell.Tab.0.right/52.23.1628.1027@52.23.1628.1027" timestamp="1585852903802" />
     <state width="1582" height="335" key="GridCell.Tab.1.bottom" timestamp="1585701339428">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
@@ -354,12 +368,12 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="655" y="253" key="RollbackChangesDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1585686364898" />
-    <state x="467" y="264" key="Vcs.Push.Dialog.v2" timestamp="1585850127133">
+    <state x="467" y="264" key="Vcs.Push.Dialog.v2" timestamp="1585852847480">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state x="465" y="264" key="Vcs.Push.Dialog.v2/49.23.1631.1027@49.23.1631.1027" timestamp="1585762971059" />
     <state x="466" y="264" key="Vcs.Push.Dialog.v2/50.23.1630.1027@50.23.1630.1027" timestamp="1585761870352" />
-    <state x="467" y="264" key="Vcs.Push.Dialog.v2/52.23.1628.1027@52.23.1628.1027" timestamp="1585850127133" />
+    <state x="467" y="264" key="Vcs.Push.Dialog.v2/52.23.1628.1027@52.23.1628.1027" timestamp="1585852847480" />
     <state x="649" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585749854230">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
