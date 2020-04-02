@@ -28,7 +28,7 @@ export function functionFactory(code, param) {
 }
 ```
 
-A caller would invoke a function by a `code` property string like this:
+A caller would invoke a function by a `code` parameter string in this manner:
 
 ```javascript
 functionFactory(code, new Date().toTimeString())
