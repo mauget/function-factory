@@ -31,7 +31,7 @@ export function functionFactory(code, param) {
 A caller would invoke a function by a `code` property string like this:
 
 ```javascript
-{ functionFactory(code, new Date().toTimeString()) }
+functionFactory(code, new Date().toTimeString())
 ```
 
 The param property is our single parameter, but we could have coded for more
