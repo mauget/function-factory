@@ -1,7 +1,7 @@
 import functionOne from './dynamic/functionOne';
 import functionTwo from './dynamic/functionTwo';
 import functionThree from './dynamic/functionThree';
-import functionZero from "./dynamic/functionZero";
+import functionZero from './dynamic/functionZero';
 
 // To add a function: add its import above; then add a line for its name here:
 const functionMap = {
