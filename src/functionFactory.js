@@ -12,10 +12,10 @@ const functionMap = {
 const resolve = (functionName, args) => {
     const fn = functionMap[functionName];
     return fn
-        ? fn( args )
+        ? fn(args)
         : `Rats! ${functionName} not registered`;
 };
 
-export function functionFactory(code, ...args) {
+export function functionFactory(code, args) {
     return resolve(`function${code}`, args);
 }

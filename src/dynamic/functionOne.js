@@ -1,6 +1,4 @@
 export default function functionOne(args) {
-    const time = args[0];
-    const val1 = args[1];
-    const val2 = args[2];
-    return `Hello from functionOne('${time}', '${val1}', '${val2}')`;
+    const { arg1, arg2, arg3 } = { ...args };
+    return `Hello from functionOne('${arg1}', '${arg2}', '${arg3}')`;
 }
