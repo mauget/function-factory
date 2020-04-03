@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f883aa2-9a86-47ee-a124-137cfab734f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="8f883aa2-9a86-47ee-a124-137cfab734f1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -404,6 +401,10 @@
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="649" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/50.23.1630.1027@50.23.1630.1027" timestamp="1585749854230" />
+    <state x="597" y="334" key="git4idea.merge.GitMergeDialog" timestamp="1585940324682">
+      <screen x="52" y="23" width="1628" height="1027" />
+    </state>
+    <state x="597" y="334" key="git4idea.merge.GitMergeDialog/52.23.1628.1027@52.23.1628.1027" timestamp="1585940324682" />
     <state x="530" y="247" key="run.anything.popup" timestamp="1585852250485">
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
