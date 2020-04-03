@@ -17,7 +17,7 @@ function App() {
             </ToggleButtonGroup>
             <br />
             <div>
-                { functionFactory(code, new Date().toTimeString()) }
+                { functionFactory(code, new Date().toTimeString(), 'value2', 'value3') }
             </div>
         </header>
     </div>;

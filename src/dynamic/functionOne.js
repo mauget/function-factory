@@ -1,3 +1,6 @@
-export default function functionOne(time) {
-    return `Hello from function ONE at ${time}`;
+export default function functionOne(args) {
+    const time = args[0];
+    const val1 = args[1];
+    const val2 = args[2];
+    return `Hello from functionOne('${time}', '${val1}', '${val2}')`;
 }

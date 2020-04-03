@@ -9,11 +9,13 @@ const functionMap = {
     functionThree,
 };
 
-const dispatchFunction = (functionNAme, param) => {
-    const fn = functionMap[functionNAme];
-    return fn ? fn(param) : `Rats! ${functionNAme} not registered`;
+const resolve = (functionName, args) => {
+    const fn = functionMap[functionName];
+    return fn
+        ? fn( args )
+        : `Rats! ${functionName} not registered`;
 };
 
-export function functionFactory(code, param) {
-    return dispatchFunction(`function${code}`, param);
+export function functionFactory(code, ...args) {
+    return resolve(`function${code}`, args);
 }
