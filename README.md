@@ -7,35 +7,28 @@ Instead, we use a JavaScript object to map a string key to a function name
 in a factory pattern. Here is `functionFactory.js`:
 
 ```javascript
-import React, {useState} from 'react';
-import './App.css';
-import {ToggleButton, ToggleButtonGroup} from "react-bootstrap";
-import {functionFactory} from "./functionFactory";
+import functionOne from './dynamic/functionOne';
+import functionTwo from './dynamic/functionTwo';
+import functionThree from './dynamic/functionThree';
+import functionZero from "./dynamic/functionZero";
 
-function App() {
-    const [code, setCode] = useState('One');
+// To add a function: add its import above; then add a line for its name here:
+const functionMap = {
+    functionOne,
+    functionTwo,
+    functionThree,
+    functionZero,
+};
 
-    return <div className="App">
-        <header className="App-header">
-            <p>Pick a code: </p>
-            <ToggleButtonGroup type="radio" name="group-options" defaultValue={code} onChange={setCode}>
-                <ToggleButton value={'One'}>Code "One"</ToggleButton>
-                <ToggleButton value={'Two'}>Code "Two"</ToggleButton>
-                <ToggleButton value={'Three'}>Code "Three"</ToggleButton>
-                <ToggleButton value={'Bad'}>Code "Bad"</ToggleButton>
-            </ToggleButtonGroup>
-            <br />
-            <div>
-                <i>{ functionFactory(code, {arg1: new Date().toTimeString(), arg2: 'value2', arg3: 'value3'}) }</i>
-            </div>
-            <br />
-            <div>
-                The function for code "Zero" uses no arguments
-                <br/>
-                <i>{ functionFactory('Zero') }</i>
-            </div>
-        </header>
-    </div>;
+const resolve = (functionName, args) => {
+    const fn = functionMap[functionName];
+    return fn
+        ? fn(args)
+        : `Rats! ${functionName} not registered`;
+};
+
+export function functionFactory(code, args = {}) {
+    return resolve(`function${code}`, args);
 }
 ```
 
@@ -70,7 +63,7 @@ The demo UI chooses the target's code property via a toggle buttons.
 
 The factory defaults unregistered functions.
 
-![pix/code-factory-ui-bad-code.png](pix/code-factory-ui-bad-code.png)
+![pix/code-factory-ui-bad-fn.png](pix/code-factory-ui-bad-fn.png)
 
 ---
 # Instructions

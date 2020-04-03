@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f883aa2-9a86-47ee-a124-137cfab734f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dynamic/functionZero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pix/code-factory-ui-bad-code.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pix/code-factory-ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/pix/code-factory-ui.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dynamic/functionThree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/dynamic/functionThree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/functionFactory.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/functionFactory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/README.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +184,7 @@
       <workItem from="1585852907903" duration="120000" />
       <workItem from="1585868214451" duration="176000" />
       <workItem from="1585868398574" duration="2838000" />
-      <workItem from="1585918265483" duration="15376000" />
+      <workItem from="1585918265483" duration="15929000" />
     </task>
     <task id="LOCAL-00001" summary="Changed root word from &quot;render&quot; to &quot;component&quot;">
       <created>1585749793941</created>
@@ -317,7 +312,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585930336736</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="New images">
+      <created>1585939034906</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1585939034906</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +343,8 @@
     <MESSAGE value="Edit explanation of a factory call in READMEs" />
     <MESSAGE value="Multiple parameters via ...rest" />
     <MESSAGE value="Multiple parameters sent in an args object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Multiple parameters sent in an args object" />
+    <MESSAGE value="New images" />
+    <option name="LAST_COMMIT_MESSAGE" value="New images" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="201" key="#ESLint" timestamp="1585748136136">
@@ -364,11 +367,11 @@
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state x="610" y="408" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/52.23.1628.1027@52.23.1628.1027" timestamp="1585852107693" />
-    <state x="449" y="138" key="CommitChangelistDialog2" timestamp="1585930336610">
-      <screen x="52" y="23" width="1628" height="1027" />
+    <state x="449" y="138" key="CommitChangelistDialog2" timestamp="1585939034772">
+      <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="448" y="138" key="CommitChangelistDialog2/49.23.1631.1027@49.23.1631.1027" timestamp="1585763400774" />
-    <state x="449" y="138" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1585761867789" />
+    <state x="449" y="138" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1585939034772" />
     <state x="449" y="138" key="CommitChangelistDialog2/52.23.1628.1027@52.23.1628.1027" timestamp="1585930336610" />
     <state x="214" y="114" key="DiffContextDialog" timestamp="1585686361995">
       <screen x="50" y="23" width="1630" height="1027" />
@@ -443,11 +446,11 @@
     </state>
     <state x="655" y="253" key="RollbackChangesDialog/50.23.1630.1027@50.23.1630.1027" timestamp="1585686364898" />
     <state x="656" y="253" key="RollbackChangesDialog/52.23.1628.1027@52.23.1628.1027" timestamp="1585923403516" />
-    <state x="467" y="264" key="Vcs.Push.Dialog.v2" timestamp="1585871085707">
-      <screen x="52" y="23" width="1628" height="1027" />
+    <state x="466" y="264" key="Vcs.Push.Dialog.v2" timestamp="1585939037820">
+      <screen x="50" y="23" width="1630" height="1027" />
     </state>
     <state x="465" y="264" key="Vcs.Push.Dialog.v2/49.23.1631.1027@49.23.1631.1027" timestamp="1585762971059" />
-    <state x="466" y="264" key="Vcs.Push.Dialog.v2/50.23.1630.1027@50.23.1630.1027" timestamp="1585761870352" />
+    <state x="466" y="264" key="Vcs.Push.Dialog.v2/50.23.1630.1027@50.23.1630.1027" timestamp="1585939037820" />
     <state x="467" y="264" key="Vcs.Push.Dialog.v2/52.23.1628.1027@52.23.1628.1027" timestamp="1585871085707" />
     <state x="649" y="459" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585749854230">
       <screen x="50" y="23" width="1630" height="1027" />
