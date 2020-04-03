@@ -57,7 +57,7 @@ export default function functionOne(args) {
 }
 ```
 
-The demo UI chooses the target's code property via a toggle buttons.
+The demo UI chooses the target's code property via toggle buttons.
 
 ![pix/code-factory-ui.png](pix/code-factory-ui.png)
 
