@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8f883aa2-9a86-47ee-a124-137cfab734f1" name="Default Changelist" comment="Change the presentation">
+    <list default="true" id="8f883aa2-9a86-47ee-a124-137cfab734f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +183,7 @@
       <workItem from="1585868214451" duration="176000" />
       <workItem from="1585868398574" duration="2838000" />
       <workItem from="1585918265483" duration="16272000" />
-      <workItem from="1586174202056" duration="855000" />
+      <workItem from="1586174202056" duration="917000" />
     </task>
     <task id="LOCAL-00001" summary="Changed root word from &quot;render&quot; to &quot;component&quot;">
       <created>1585749793941</created>
@@ -340,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586174837954</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Update .gitignore">
+      <created>1586175101571</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1586175101571</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,7 +374,8 @@
     <MESSAGE value="Smaller images" />
     <MESSAGE value="Typo in README" />
     <MESSAGE value="Change the presentation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change the presentation" />
+    <MESSAGE value="Update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update .gitignore" />
   </component>
   <component name="WindowStateProjectService">
     <state x="466" y="201" key="#ESLint" timestamp="1585748136136">
@@ -391,13 +398,13 @@
       <screen x="52" y="23" width="1628" height="1027" />
     </state>
     <state x="610" y="408" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/52.23.1628.1027@52.23.1628.1027" timestamp="1585852107693" />
-    <state x="451" y="138" key="CommitChangelistDialog2" timestamp="1586175028824">
+    <state x="451" y="138" key="CommitChangelistDialog2" timestamp="1586175101456">
       <screen x="54" y="23" width="1626" height="1027" />
     </state>
     <state x="448" y="138" key="CommitChangelistDialog2/49.23.1631.1027@49.23.1631.1027" timestamp="1585763400774" />
     <state x="449" y="138" key="CommitChangelistDialog2/50.23.1630.1027@50.23.1630.1027" timestamp="1585939788617" />
     <state x="449" y="138" key="CommitChangelistDialog2/52.23.1628.1027@52.23.1628.1027" timestamp="1585940022610" />
-    <state x="451" y="138" key="CommitChangelistDialog2/54.23.1626.1027@54.23.1626.1027" timestamp="1586175028824" />
+    <state x="451" y="138" key="CommitChangelistDialog2/54.23.1626.1027@54.23.1626.1027" timestamp="1586175101456" />
     <state x="214" y="114" key="DiffContextDialog" timestamp="1585686361995">
       <screen x="50" y="23" width="1630" height="1027" />
     </state>
