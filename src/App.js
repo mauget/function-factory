@@ -8,22 +8,18 @@ function App() {
 
     return <div className="App">
         <header className="App-header">
-            <p>Pick a code: </p>
+            <p>Pick a code string: </p>
             <ToggleButtonGroup type="radio" name="group-options" defaultValue={code} onChange={setCode}>
-                <ToggleButton value={'One'}>Code "One"</ToggleButton>
-                <ToggleButton value={'Two'}>Code "Two"</ToggleButton>
-                <ToggleButton value={'Three'}>Code "Three"</ToggleButton>
-                <ToggleButton value={'Bad'}>Code "Bad"</ToggleButton>
+                <ToggleButton value={'Zero'}>"Zero"</ToggleButton>
+                <ToggleButton value={'One'}>"One"</ToggleButton>
+                <ToggleButton value={'Two'}>"Two"</ToggleButton>
+                <ToggleButton value={'Three'}>"Three"</ToggleButton>
+                <ToggleButton value={'Bad'}>"Bad"</ToggleButton>
             </ToggleButtonGroup>
             <br />
+            <p>Functional result for "{code}" is:</p>
             <div>
                 <i>{ functionFactory(code, {arg1: new Date().toTimeString(), arg2: 'value2', arg3: 'value3'}) }</i>
-            </div>
-            <br />
-            <div>
-                The function for code "Zero" uses no arguments
-                <br/>
-                <i>{ functionFactory('Zero') }</i>
             </div>
         </header>
     </div>;
